@@ -1,0 +1,13 @@
+.board {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+.btn {
+  padding: 3rem;
+  margin: auto;
+}
