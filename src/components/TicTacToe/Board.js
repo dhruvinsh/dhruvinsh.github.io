@@ -5,21 +5,33 @@ import classes from "./Board.module.css";
 const Board = (props) => {
   return (
     <div className={classes.board}>
-      <div>
-        <Button className={classes.btn}>1</Button>
-        <Button className={classes.btn}>2</Button>
-        <Button className={classes.btn}>3</Button>
-      </div>
-      <div>
-        <Button className={classes.btn}>4</Button>
-        <Button className={classes.btn}>5</Button>
-        <Button className={classes.btn}>6</Button>
-      </div>
-      <div>
-        <Button className={classes.btn}>7</Button>
-        <Button className={classes.btn}>8</Button>
-        <Button className={classes.btn}>9</Button>
-      </div>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        1
+      </Button>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        2
+      </Button>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        3
+      </Button>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        4
+      </Button>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        5
+      </Button>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        6
+      </Button>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        7
+      </Button>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        8
+      </Button>
+      <Button className={classes.btn} onClick={props.onSwitchPlayer}>
+        9
+      </Button>
     </div>
   );
 };

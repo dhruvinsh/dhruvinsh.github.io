@@ -1,13 +1,10 @@
 .board {
   background-color: grey;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
 }
 
 .btn {
-  padding: 3rem;
-  margin: auto;
+  font: inherit;
+  padding: 2rem;
 }
